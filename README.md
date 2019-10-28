@@ -1,2 +1,11 @@
 # Vacation-portal-using-graphs
-C lang used
+
+
+**Language used:
+> C
+
+**Status:
+> Still working on it!
+
+**Compiler used:
+> Xcode
