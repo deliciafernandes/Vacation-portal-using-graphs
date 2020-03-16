@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2509
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Italic;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red108\green121\blue134;\red31\green31\blue36;\red252\green95\blue163;
+\red255\green255\blue255;\red252\green106\blue93;\red174\green243\blue125;\red150\green134\blue245;}
+{\*\expandedcolortbl;;\csgenericrgb\c42394\c47462\c52518;\csgenericrgb\c12054\c12284\c14131;\csgenericrgb\c98839\c37355\c63833;
+\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c98912\c41558\c36568;\csgenericrgb\c68215\c95290\c48909;\csgenericrgb\c58752\c52717\c95948;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f0\i\fs24 \cf2 \cb3 #include<graphics.h>\
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f1\i0\b \cf4 \cb3 int
+\f2\b0 \cf5  gd = DETECT, gm;\
+    \
+    \
+    \
+    initgraph(&gd,&gm, \cf6 "C:\\\\TC\\\\BGI"\cf5 );\
+    \
+    \cf7 setcolor\cf5 (\cf7 getmaxcolor\cf5 ());\
+    
+\f0\i \cf2 \cb3 system("cls");\
+
+\f2\i0 \cf7 \cb3 diagram\cf5 ();\
+    \
+\
+
+\f1\b \cf4 void
+\f2\b0 \cf5  diagram()\
+\
+\{\
+    \
+    \
+    \
+    
+\f0\i \cf2 \cb3 /* draw the circle */
+\f2\i0 \cf5 \cb3 \
+    \
+    \cf7 circle\cf5 (\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 25\cf5 \cb3 );\
+    \
+    \cf7 circle\cf5 (\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 25\cf5 \cb3 );\
+    \
+    \cf7 circle\cf5 (\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 25\cf5 \cb3 );\
+    \
+    \cf7 circle\cf5 (\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 ,\cf8 \cb3 25\cf5 \cb3 );\
+    \
+    \cf7 circle\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 25\cf5 \cb3 );\
+    \
+    \
+    \
+    \cf7 line\cf5 (\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 ,\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 ,\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 100\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 50\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 );\
+    \
+    \cf7 line\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 300\cf5 \cb3 ,\cf8 \cb3 200\cf5 \cb3 ,\cf8 \cb3 400\cf5 \cb3 );\
+    \
+    \
+    \
+    \
+    \
+    \cf7 outtextxy\cf5 (\cf8 \cb3 75\cf5 \cb3 ,\cf8 \cb3 60\cf5 \cb3 ,\cf6 "mumbai"\cf5 );\
+    \
+    \cf7 outtextxy\cf5 (\cf8 \cb3 275\cf5 \cb3 ,\cf8 \cb3 60\cf5 \cb3 ,\cf6 "agra"\cf5 );\
+    \
+    \cf7 outtextxy\cf5 (\cf8 \cb3 25\cf5 \cb3 ,\cf8 \cb3 340\cf5 \cb3 ,\cf6 "kochi"\cf5 );\
+    \
+    \cf7 outtextxy\cf5 (\cf8 \cb3 170\cf5 \cb3 ,\cf8 \cb3 440\cf5 \cb3 ,\cf6 "guwahati"\cf5 );\
+    \
+    \cf7 outtextxy\cf5 (\cf8 \cb3 350\cf5 \cb3 ,\cf8 \cb3 340\cf5 \cb3 ,\cf6 "Delhi"\cf5 );\
+    \
+    \
+    \
+    \cf7 getch\cf5 ();\
+    \
+    
+\f0\i \cf2 \cb3 /* clean up */
+\f2\i0 \cf5 \cb3 \
+    \
+\}\
+\
+}
